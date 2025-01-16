@@ -22,9 +22,11 @@ header{
     background-image: url("sor/design/beer-new_401732638.jpg");
 }
 nav{
-    background-color: gray;
+    background-color: rgb(36, 36, 36);
     display: grid;
-    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-columns: 1fr;
+    padding: 0px;
+    font-weight:bolder;
 }
 article{
     background-color: black;
@@ -51,12 +53,6 @@ article img{
     max-width: 15%;
     margin: 20px;
 }
-td{
-    border: 1px solid white;
-}
-th{
-    border: 1px solid white;
-}
 footer{
     background-color: gray;
     text-align: center;
@@ -75,7 +71,7 @@ footer{
 }
 main{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
     grid-template-areas: 
     "h h"
     "a n"
